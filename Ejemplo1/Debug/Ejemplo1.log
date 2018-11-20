@@ -1,0 +1,7 @@
+﻿  Emoji.cpp
+c:\users\hp\source\repos\ejemplo1\ejemplo1\emoji.cpp(32): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
+c:\users\hp\source\repos\ejemplo1\ejemplo1\emoji.cpp(38): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+c:\users\hp\source\repos\ejemplo1\ejemplo1\emoji.cpp(43): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+c:\users\hp\source\repos\ejemplo1\ejemplo1\emoji.cpp(48): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+c:\users\hp\source\repos\ejemplo1\ejemplo1\emoji.cpp(53): warning C4305: 'argumento': truncamiento de 'double' a 'float'
+  Ejemplo1.vcxproj -> C:\Users\HP\source\repos\Ejemplo1\Debug\Ejemplo1.exe
