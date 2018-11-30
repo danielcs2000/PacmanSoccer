@@ -1,14 +1,7 @@
 ﻿  main.cpp
-c:\users\hp\source\repos\poo2\pacmansoccer\ejemplo1\control.h(22): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
-c:\users\hp\source\repos\poo2\pacmansoccer\ejemplo1\control.h(112): error C3861: 'intersects': no se encontró el identificador
-c:\users\hp\source\repos\poo2\pacmansoccer\ejemplo1\control.h(121): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
-c:\users\hp\source\repos\poo2\pacmansoccer\ejemplo1\control.h(122): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
-c:\users\hp\source\repos\poo2\pacmansoccer\ejemplo1\control.h(127): error C3861: 'intersects': no se encontró el identificador
-c:\users\hp\source\repos\poo2\pacmansoccer\ejemplo1\control.h(135): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
-c:\users\hp\source\repos\poo2\pacmansoccer\ejemplo1\control.h(136): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
-c:\users\hp\source\repos\poo2\pacmansoccer\ejemplo1\control.h(141): error C3861: 'intersects': no se encontró el identificador
-c:\users\hp\source\repos\poo2\pacmansoccer\ejemplo1\control.h(146): error C3861: 'intersects': no se encontró el identificador
-c:\users\hp\source\repos\poo2\pacmansoccer\ejemplo1\control.h(152): error C3861: 'intersects': no se encontró el identificador
-c:\users\hp\source\repos\poo2\pacmansoccer\ejemplo1\control.h(159): error C3861: 'intersects': no se encontró el identificador
-c:\users\hp\source\repos\poo2\pacmansoccer\ejemplo1\control.h(165): error C3861: 'intersects': no se encontró el identificador
-c:\users\hp\source\repos\poo2\pacmansoccer\ejemplo1\control.h(175): error C3861: 'intersects': no se encontró el identificador
+c:\users\hp\source\repos\poo2\pacmansoccer\ejemplo1\control.h(44): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+c:\users\hp\source\repos\poo2\pacmansoccer\ejemplo1\control.h(143): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\hp\source\repos\poo2\pacmansoccer\ejemplo1\control.h(144): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\hp\source\repos\poo2\pacmansoccer\ejemplo1\control.h(157): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\hp\source\repos\poo2\pacmansoccer\ejemplo1\control.h(158): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+  Ejemplo1.vcxproj -> C:\Users\HP\source\repos\poo2\PacmanSoccer\Debug\Ejemplo1.exe

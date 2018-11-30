@@ -14,6 +14,28 @@ int score1 = 0;
 int score2 = 0;
 
 
+
+using namespace sf;
+
+
+bool intersects(sf::CircleShape& c1, sf::RectangleShape& rect2) {
+	sf::FloatRect circle = c1.getGlobalBounds();
+	sf::FloatRect rectangle = rect2.getGlobalBounds();
+	return circle.intersects(rectangle);
+}
+bool intersects(sf::CircleShape& c1, sf::CircleShape& c2) {
+	sf::FloatRect circle1 = c1.getGlobalBounds();
+	sf::FloatRect circle2 = c2.getGlobalBounds();
+	return circle1.intersects(circle2);
+}
+bool intersects(sf::Sprite& c1, sf::CircleShape& c2) {
+	sf::FloatRect circle1 = c1.getGlobalBounds();
+	sf::FloatRect circle2 = c2.getGlobalBounds();
+	return circle1.intersects(circle2);
+}
+
+
+
 class Control {
 public:
 
@@ -51,9 +73,9 @@ public:
 
 
 
-		Ambiente Ambiente;
+		Ambiente<RectangleShape> Ambiente;
 
-		sf::SoundBuffer buffer;
+		SoundBuffer buffer;
 		// Cargamos un archivo en el buffer
 		if (!buffer.loadFromFile("pop.wav"))
 		{
@@ -187,24 +209,10 @@ public:
 			Ball.Mover();
 
 		}
+		return 0;
 	}
 
 };
 
 
 
-bool intersects(sf::CircleShape& c1, sf::RectangleShape& rect2) {
-	sf::FloatRect circle = c1.getGlobalBounds();
-	sf::FloatRect rectangle = rect2.getGlobalBounds();
-	return circle.intersects(rectangle);
-}
-bool intersects(sf::CircleShape& c1, sf::CircleShape& c2) {
-	sf::FloatRect circle1 = c1.getGlobalBounds();
-	sf::FloatRect circle2 = c2.getGlobalBounds();
-	return circle1.intersects(circle2);
-}
-bool intersects(sf::Sprite& c1, sf::CircleShape& c2) {
-	sf::FloatRect circle1 = c1.getGlobalBounds();
-	sf::FloatRect circle2 = c2.getGlobalBounds();
-	return circle1.intersects(circle2);
-}

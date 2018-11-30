@@ -2,8 +2,5 @@
 #include "control.h"
 
 int main() {
-	Control control;
-	int i = control.empezar();
-
-	return 0;
+	Control control;int O = control.empezar();return O;
 }

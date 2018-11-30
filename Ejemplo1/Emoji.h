@@ -4,6 +4,7 @@
 #include "config.h"
 
 #include <SFML\Audio.hpp>
+
 class Emoji
 {
 private:
