@@ -1,7 +1,14 @@
-﻿  Emoji.cpp
-c:\users\hp\source\repos\ejemplo1\ejemplo1\emoji.cpp(32): warning C4244: 'argumento': conversión de 'int' a 'float'; posible pérdida de datos
-c:\users\hp\source\repos\ejemplo1\ejemplo1\emoji.cpp(38): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-c:\users\hp\source\repos\ejemplo1\ejemplo1\emoji.cpp(43): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-c:\users\hp\source\repos\ejemplo1\ejemplo1\emoji.cpp(48): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-c:\users\hp\source\repos\ejemplo1\ejemplo1\emoji.cpp(53): warning C4305: 'argumento': truncamiento de 'double' a 'float'
-  Ejemplo1.vcxproj -> C:\Users\HP\source\repos\Ejemplo1\Debug\Ejemplo1.exe
+﻿  main.cpp
+c:\users\hp\source\repos\poo2\pacmansoccer\ejemplo1\control.h(22): warning C4244: 'argumento': conversión de 'time_t' a 'unsigned int'; posible pérdida de datos
+c:\users\hp\source\repos\poo2\pacmansoccer\ejemplo1\control.h(112): error C3861: 'intersects': no se encontró el identificador
+c:\users\hp\source\repos\poo2\pacmansoccer\ejemplo1\control.h(121): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\hp\source\repos\poo2\pacmansoccer\ejemplo1\control.h(122): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\hp\source\repos\poo2\pacmansoccer\ejemplo1\control.h(127): error C3861: 'intersects': no se encontró el identificador
+c:\users\hp\source\repos\poo2\pacmansoccer\ejemplo1\control.h(135): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\hp\source\repos\poo2\pacmansoccer\ejemplo1\control.h(136): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+c:\users\hp\source\repos\poo2\pacmansoccer\ejemplo1\control.h(141): error C3861: 'intersects': no se encontró el identificador
+c:\users\hp\source\repos\poo2\pacmansoccer\ejemplo1\control.h(146): error C3861: 'intersects': no se encontró el identificador
+c:\users\hp\source\repos\poo2\pacmansoccer\ejemplo1\control.h(152): error C3861: 'intersects': no se encontró el identificador
+c:\users\hp\source\repos\poo2\pacmansoccer\ejemplo1\control.h(159): error C3861: 'intersects': no se encontró el identificador
+c:\users\hp\source\repos\poo2\pacmansoccer\ejemplo1\control.h(165): error C3861: 'intersects': no se encontró el identificador
+c:\users\hp\source\repos\poo2\pacmansoccer\ejemplo1\control.h(175): error C3861: 'intersects': no se encontró el identificador

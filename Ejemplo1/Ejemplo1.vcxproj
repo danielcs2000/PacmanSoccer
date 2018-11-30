@@ -131,6 +131,7 @@
   <ItemGroup>
     <ClInclude Include="Ambiente.h" />
     <ClInclude Include="config.h" />
+    <ClInclude Include="control.h" />
     <ClInclude Include="Emoji.h" />
     <ClInclude Include="Pelota.h" />
   </ItemGroup>
